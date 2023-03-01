@@ -44,5 +44,8 @@ collections:
 ``` 
 docker build --tag repoName:tage . 
 EXAMPLE:
-       docker build --tag quay.io/ansible/awx-ee .
+       docker build --tag quay.io/fernadez_m/custom-awx-ee:0.6.6-general .
+
+pushing to rep:
+    docker push quay.io/fernadez_m/custom-awx-ee
 ```
